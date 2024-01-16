@@ -4,25 +4,21 @@
 variable "subscription-id" {
     type = string
     default = "544175bc-910c-4bb2-9570-e6b50b93806d"
-    #default = "21310e70-db4d-4153-90c3-7fa4adec17d3"
 }
 # client id of provider
 variable "client-id" {
     type = string
     default = "e11b42ec-8e4f-47df-9c12-039a036cd8cd"
-    #default = "f33a139d-3c04-43f6-bc25-1e65acc7afe5"
 }
 # client secret value of provider
 variable "client-secret" {
     type = string
     default = "aJB8Q~5MrOEkGBFk-6JFGxFQ-PHgAbNTSUw1_ctG"
-    #default = "8-78Q~AlUeZeLMlTPCVIWNuVQPMmNNhuQaJJ7c0J"
 }
 # tenant id of provider
 variable "tenant-id" {
     type = string
     default = "823fb12d-7a69-4d7b-aa51-b6c82fe5cc5a"
-    #default = "80c19f82-3727-43db-8296-5d2d8c2dda7f"
 }
 
 # value will come from the payload
