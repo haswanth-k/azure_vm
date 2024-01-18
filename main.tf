@@ -42,6 +42,7 @@ size=var.vm-size
 admin_username = var.user-name
 admin_password = var.password
 network_interface_ids = [azurerm_network_interface.windows-nic.id]
+tags = "CostCenter"
 
 # os-disk creation
 os_disk {
